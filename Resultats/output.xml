@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <robot generator="Robot 7.0.1 (Python 3.11.5 on win32)" generated="2024-08-03T16:29:04.624294" rpa="false" schemaversion="5">
 <suite id="s1" name="ObjectPage" source="C:\Projet\Test\ObjectPage.robot">
 <test id="s1-t1" name="TC10:UpdateUser" line="80">
@@ -144,13 +145,47 @@
 <status status="PASS" start="2024-08-03T16:29:06.079569" elapsed="20.234422"/>
 </test>
 <status status="PASS" start="2024-08-03T16:29:04.628297" elapsed="21.696874"/>
+=======
+<robot generator="Robot 7.0 (Python 3.11.0 on win32)" generated="2024-08-03T16:47:29.038201" rpa="false" schemaversion="5">
+<suite id="s1" name="ObjectPage" source="C:\projetabdel\ProjetRF\Test\ObjectPage.robot">
+<test id="s1-t1" name="TC1:Open browser" line="15">
+<kw name="OpenPage" owner="common">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-03T16:47:33.560000" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-03T16:47:33.560000" elapsed="16.179658"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-03T16:47:49.739658" elapsed="2.324333"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-08-03T16:47:52.376068" level="INFO">Page title is 'OrangeHRM'.</msg>
+<arg>OrangeHRM</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-08-03T16:47:52.071993" elapsed="0.304075"/>
+</kw>
+<status status="PASS" start="2024-08-03T16:47:33.535993" elapsed="18.840075"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-03T16:47:52.408077" elapsed="7.207399"/>
+</kw>
+<doc>Open url :OrangeHRM in chrome</doc>
+<tag>critical_1</tag>
+<status status="PASS" start="2024-08-03T16:47:33.517964" elapsed="26.097512"/>
+</test>
+<status status="PASS" start="2024-08-03T16:47:29.056738" elapsed="30.566741"/>
+>>>>>>> 9d03c344ce5c3217144d89c9434f33980b8cf8dd
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">critical_10</stat>
+<stat pass="1" fail="0" skip="0">critical_1</stat>
 </tag>
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="ObjectPage">ObjectPage</stat>
