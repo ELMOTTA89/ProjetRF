@@ -1,3 +1,4 @@
-Resultats/*.html
-Resultats/*.xml
-Resultats/*.png
+Resultats/
+#Resultats/*.html
+#Resultats/*.xml
+#Resultats/*.png
