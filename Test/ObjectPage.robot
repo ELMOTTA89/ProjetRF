@@ -83,4 +83,29 @@ TC10:UpdateUser
     OpenPage
     Successful login with valid credentials
     UpdateUser
-    
+    Close Browser
+
+TC11:ResetPage
+    [Documentation]    Reset admin page
+    [Tags]    critical_11
+    OpenPage
+    Successful login with valid credentials   
+    Resetpage
+    Close Browser
+
+TC12:Successuful AddtableofUsers
+    [Documentation]    add users
+    [Tags]    critical_12
+    OpenPage
+    Successful login with valid credentials
+    Successuful AddtableofUsers
+    Close Browser
+
+TC13:Successuful AddtableofUsers
+    [Documentation]    add users nawfal
+    [Tags]    critical_13
+    OpenPage
+    Successful login with valid credentials
+    Successuful AddtableofUsers nawfel
+    Close Browser
+

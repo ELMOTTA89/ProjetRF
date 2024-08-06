@@ -18,6 +18,8 @@ SelectDisabledAdmin="xpath://*[contains(text(),'Disabled')]"
 VerifyDisabled="xpath://label[text()='Status']/following::div[@data-v-6c07a142][4]"
 
 Editbutton="xpath://*[@class='oxd-icon bi-pencil-fill']"
+ResetbuttonAdmin="xpath://button[@type='button' and @class='oxd-button oxd-button--medium oxd-button--ghost']"
+RecordsFoundAdminPage="xpath://span[@data-v-5a621acd and @class='oxd-text oxd-text--span']"
 
 
 

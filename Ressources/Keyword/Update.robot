@@ -24,3 +24,11 @@ UpdateUser
     Click Element    ${Editsavebutton}
     Wait Until Page Contains    Success
 
+
+Resetpage
+    Wait Until Element Is Visible    ${AdminIcone}
+    Click Element    ${AdminIcone}    
+    Wait Until Element Is Visible    ${ResetbuttonAdmin}    
+    Click Element    ${ResetbuttonAdmin}
+    Wait Until Element Is Visible    ${RecordsFoundAdminPage}
+
