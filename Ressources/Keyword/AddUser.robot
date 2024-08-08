@@ -96,3 +96,5 @@ Successuful AddtableofUsers nawfel
         Wait Until Element Is Visible    ${Lsavebutton}
         Click Element    ${Lsavebutton}
    END 
+
+   #python -m robot --listener allure_robotframework --outputdir C:/Projet/output/allure -i critical_13 C:\Projet\Test\ObjectPage.robot
