@@ -5,6 +5,7 @@ Variables    ../Locators/AdminPage.py
 Variables    ../Locators/DashboardPage.py
 Variables    ../Locators/EditPage.py
 Variables    ../JDD/EditUser.py
+Variables    ../JDD/Reset.py
 
 *** Keywords ***
 
@@ -27,8 +28,25 @@ UpdateUser
 
 Resetpage
     Wait Until Element Is Visible    ${AdminIcone}
-    Click Element    ${AdminIcone}    
+    Click Element    ${AdminIcone}
+    Wait Until Element Is Visible    ${AdminPageUsername}
+    Input Text    ${AdminPageUsername}    ${Adminreset} 
+    Wait Until Element Is Visible    ${AdminUserRole} 
+    Click Element    ${AdminUserRole}    
+    Run Keyword If    '${Adminreset}' == 'Admin'    Click Element    ${Admina}
+    ...        ELSE        Click Element    ${ESSA} 
     Wait Until Element Is Visible    ${ResetbuttonAdmin}    
     Click Element    ${ResetbuttonAdmin}
+    ${Avalue}    Get Value    ${AdminPageUsername}
+    ${EMevalue}    Get Value    ${EMPName}
+    #Element Should Be Visible    ${selectuserRole}
+    #Log    ${Sevalue}
+    ${textt}    Get Text    ${selectuserRole}
+    Should Be Empty    ${EMevalue}
+    Should Be Empty    ${Avalue}
+    Should Be Equal As Strings    ${textt}    ${selectt}
     Wait Until Element Is Visible    ${RecordsFoundAdminPage}
+    
+
+    
 

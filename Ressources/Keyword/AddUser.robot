@@ -65,7 +65,7 @@ Successuful AddtableofUsers
 
 
 Successuful AddtableofUsers nawfel
-   ${file} =    Get File    C:\\Projet\\Ressources\\JDD\\Data.csv
+   ${file} =    Get File    C:\\Users\\motal\\OneDrive\\Desktop\\automatisation\\Robotframework\\RF_Exercice\\Ressources\\JDD\\Data.csv
    ${table} =    Evaluate    [line.split(';') for line in $file.splitlines()[1:]]
    FOR    ${row}    IN    @{table}
         ${ro} =    Set Variable    ${row}[0]
