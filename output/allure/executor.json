@@ -1,0 +1,11 @@
+{
+    "name": "robotframework",
+    "type": "robotframework",
+    "url": "http://jenkins.example.com/job/my-job",
+    "buildOrder": 1,
+    "buildName": "my-job",
+    "buildUrl": "http://jenkins.example.com/job/my-job/1",
+    "reportUrl": "http://jenkins.example.com/job/my-job/1/AllureReport",
+    "reportName": "Allure Report for Job my-job Build 1"
+  }
+  

@@ -7,7 +7,6 @@ Variables    ../JDD/DeleteUser.py
 
 *** Keywords ***
 DeleteUser
-
      Wait Until Element Is Visible    ${AdminIcone}
      Click Element    ${AdminIcone}
      Wait Until Element Is Visible    ${AdminPageUsername}
