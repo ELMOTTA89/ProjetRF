@@ -109,3 +109,7 @@ TC13:Successuful AddtableofUsers
     Successuful AddtableofUsers nawfel
     Close Browser
 
+#pour l'execution sur jenkis il faut : mettre le path de l'executeur python et le remplacer avec python puis la commande de l'execution 
+#exemple:
+#C:\\Users\\motal\\AppData\\Local\\Programs\\Python\\Python311\\Python.exe -m robot -d C:\\Users\\motal\\OneDrive\\Desktop\\automatisation\\Robotframework\\paruvendu\\Resultats -i critical2 C:\\Users\\motal\\OneDrive\\Desktop\\automatisation\\Robotframework\\paruvendu\\Test\\PageObject.robot
+#H/5 * * * * pour eviter que les job s'executer en meme temps ,,,,imaginant que lexecution prend 7 min ,,,on va attendre la fin du premer job avant de lancer le deuxeime

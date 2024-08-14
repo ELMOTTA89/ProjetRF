@@ -1,0 +1,3 @@
+1-installation VScode
+2-Installation plugin ROBOCORP CODE et Robot Framework Language Server
+3-Dans chaque plugging il faut aller vers setting(par exemple on click sur ROBOCORP puis on appuis sur le cercle de setting puis on appuis sur extension setting --> Robot › Language-server: Python puis copier le path executeur de python (C:\Users\motal\AppData\Local\Programs\Python\Python311\Python.exe)
