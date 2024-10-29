@@ -1,4 +1,5 @@
 *** Settings ***
+#https://www.selenium.dev/documentation/webdriver/
 Library    OperatingSystem
 Library    SeleniumLibrary
 Variables    ../Locators/DashboardPage.py
